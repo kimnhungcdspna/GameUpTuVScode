@@ -13,7 +13,7 @@ public class PlayerCollider : MonoBehaviour
         if (collision.CompareTag("coin"))
         {
            
-            gameManager.congdiem(1);
+            gameManager.congdiem(2);
             Destroy(collision.gameObject);
             //Debug.Log("Hit coin");
         }
